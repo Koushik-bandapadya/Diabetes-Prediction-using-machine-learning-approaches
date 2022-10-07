@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+    .form-control, .form-select{
+        width:400px;
+    }
+    label{
+        width:380px;
+    }
+</style>
+    <title>Result:Diabetes DETECTION </title>
+    <link rel = "icon" href = 
+"https://i.postimg.cc/ZqQ1DzXR/logo.jpg" 
+        type = "image/x-icon">
+    
+  </head>
+
+<body style="background: rgb(195,182,34);
+background: linear-gradient(257deg, rgba(195,182,34,1) 0%, rgba(37,72,176,1) 42%, rgba(45,210,253,1) 100%);">
+
+    <center style="width:100%;height:800px">
+       
+    
+    {%if data == 0%}
+    <h1 style=" margin-top:300px; color:white"> Do not have Diabetes.</h1>
+
+    {%else%}
+    <h1 style=" margin-top:300px; color:white">You have Diabetes.</h1>
+
+    
+    {%endif%}
+
+        <br><br>
+    <a class="btn btn-dark" href='/'>Go Back To Home Page</a>
+
+    </center> 
+
+</body>
+
+</html>
+
+
+
+
+
+
